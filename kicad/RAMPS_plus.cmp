@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 08/04/2014 21:59:49
+
+BeginCmp
+TimeStamp = /534310C0;
+Reference = P1;
+ValeurCmp = "1790-61303621121";
+IdModule  = 7408hacks/dio2z;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430C34;
+Reference = P2;
+ValeurCmp = "1788-61300811121";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430C53;
+Reference = P3;
+ValeurCmp = "1788-61300811121";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430C72;
+Reference = P4;
+ValeurCmp = "1788-61300811121";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430CCF;
+Reference = P5;
+ValeurCmp = "1789-61301011121";
+IdModule  = 7408hacks/dio2r;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430C91;
+Reference = P6;
+ValeurCmp = "1788-61300811121";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /53430CB0;
+Reference = P7;
+ValeurCmp = "1788-61300811121";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444D1D;
+Reference = P8;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444D3C;
+Reference = P9;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444D5B;
+Reference = P10;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444D7A;
+Reference = P11;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444D99;
+Reference = P12;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444DB8;
+Reference = P13;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444DD7;
+Reference = P14;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444DF6;
+Reference = P15;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444E15;
+Reference = P16;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/53444E34;
+Reference = P17;
+ValeurCmp = "1791-ZL262-8SG";
+IdModule  = 7408hacks/dibfv;
+EndCmp
+
+EndListe

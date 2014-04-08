@@ -1,0 +1,168 @@
+EESchema Schematic File Version 2
+LIBS:CircuitHub
+LIBS:stepper-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "8 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L "1791-ZL262-8SG" P1
+U 1 1 53444D1D
+P 1600 1200
+F 0 "P1" H 1600 1230 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 1600 270 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 1600 1500 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 1600 1600 60  0001 L CNN
+F 4 "1791" H 1600 1700 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 1600 1800 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 1600 1900 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 1600 2000 60  0001 L CNN "footprintRevision"
+	1    1600 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P2
+U 1 1 53444D3C
+P 1600 2600
+F 0 "P2" H 1600 2630 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 1600 1670 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 1600 2900 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 1600 3000 60  0001 L CNN
+F 4 "1791" H 1600 3100 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 1600 3200 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 1600 3300 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 1600 3400 60  0001 L CNN "footprintRevision"
+	1    1600 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P3
+U 1 1 53444D5B
+P 1600 4000
+F 0 "P3" H 1600 4030 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 1600 3070 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 1600 4300 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 1600 4400 60  0001 L CNN
+F 4 "1791" H 1600 4500 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 1600 4600 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 1600 4700 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 1600 4800 60  0001 L CNN "footprintRevision"
+	1    1600 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P4
+U 1 1 53444D7A
+P 2000 1200
+F 0 "P4" H 2000 1230 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 2000 270 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 2000 1500 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 2000 1600 60  0001 L CNN
+F 4 "1791" H 2000 1700 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 2000 1800 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 2000 1900 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 2000 2000 60  0001 L CNN "footprintRevision"
+	1    2000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P5
+U 1 1 53444D99
+P 2000 2600
+F 0 "P5" H 2000 2630 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 2000 1670 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 2000 2900 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 2000 3000 60  0001 L CNN
+F 4 "1791" H 2000 3100 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 2000 3200 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 2000 3300 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 2000 3400 60  0001 L CNN "footprintRevision"
+	1    2000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P6
+U 1 1 53444DB8
+P 2000 4000
+F 0 "P6" H 2000 4030 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 2000 3070 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 2000 4300 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 2000 4400 60  0001 L CNN
+F 4 "1791" H 2000 4500 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 2000 4600 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 2000 4700 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 2000 4800 60  0001 L CNN "footprintRevision"
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P7
+U 1 1 53444DD7
+P 4600 1200
+F 0 "P7" H 4600 1230 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 4600 270 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 4600 1500 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 4600 1600 60  0001 L CNN
+F 4 "1791" H 4600 1700 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 4600 1800 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 4600 1900 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 4600 2000 60  0001 L CNN "footprintRevision"
+	1    4600 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P8
+U 1 1 53444DF6
+P 4600 2600
+F 0 "P8" H 4600 2630 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 4600 1670 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 4600 2900 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 4600 3000 60  0001 L CNN
+F 4 "1791" H 4600 3100 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 4600 3200 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 4600 3300 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 4600 3400 60  0001 L CNN "footprintRevision"
+	1    4600 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P9
+U 1 1 53444E15
+P 5000 1200
+F 0 "P9" H 5000 1230 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 5000 270 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 5000 1500 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 5000 1600 60  0001 L CNN
+F 4 "1791" H 5000 1700 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 5000 1800 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 5000 1900 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 5000 2000 60  0001 L CNN "footprintRevision"
+	1    5000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L "1791-ZL262-8SG" P10
+U 1 1 53444E34
+P 5000 2600
+F 0 "P10" H 5000 2630 60  0000 L CNN
+F 1 "\"1791-ZL262-8SG\"" H 5000 1670 60  0000 L CNN
+F 2 "7408hacks/dibfv" H 5000 2900 60  0001 L CNN
+F 3 "https://circuithub.com/parts/NINIGI/ZL262-8SG/documents" H 5000 3000 60  0001 L CNN
+F 4 "1791" H 5000 3100 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dfuzq" H 5000 3200 60  0001 L CNN "symbolURN"
+F 6 "932f0abe5e8743f2989d272caa5d60e5f5693f19" H 5000 3300 60  0001 L CNN "symbolRevision"
+F 7 "7367da15bf1419c94b42e2813643318cf40058c4" H 5000 3400 60  0001 L CNN "footprintRevision"
+	1    5000 2600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
