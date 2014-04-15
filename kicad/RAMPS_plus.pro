@@ -1,15 +1,5 @@
-update=08/04/2014 22:12:54
-last_client=kicad
-[eeschema]
-version=1
-LibDir=
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad/CircuitHub
+update=15/04/2014 20:44:15
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -39,3 +29,17 @@ LibDir=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad
 LibName1=CircuitHub
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=D:/Lib/kicad
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad/CircuitHub
+LibName2=power
+LibName3=transistors
+LibName4=regul
+LibName5=device
