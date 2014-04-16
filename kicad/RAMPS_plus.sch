@@ -5,6 +5,7 @@ LIBS:regul
 LIBS:device
 LIBS:opto
 LIBS:transistor
+LIBS:conn
 LIBS:RAMPS_plus-cache
 EELAYER 27 0
 EELAYER END

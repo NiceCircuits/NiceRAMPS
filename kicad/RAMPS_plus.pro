@@ -1,10 +1,5 @@
-update=16/04/2014 20:54:17
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=16/04/2014 22:10:20
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=RAMPS_plus.net
@@ -25,8 +20,31 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad
 LibName1=CircuitHub
+LibName2=capacitors
+LibName3=connect
+LibName4=connectors_molex_serial_53047-A123
+LibName5=dip_sockets
+LibName6=discret
+LibName7=display
+LibName8=divers
+LibName9=inductors
+LibName10=led
+LibName11=libcms
+LibName12=muonde
+LibName13=pga_sockets
+LibName14=pin_array
+LibName15=powerint
+LibName16=smd_capacitors
+LibName17=smd_crystal&oscillator
+LibName18=smd_dil
+LibName19=smd_resistors
+LibName20=smd_soic_packages
+LibName21=smd_ssop_packages
+LibName22=smd_transistors
+LibName23=sockets
+LibName24=valves
+LibDir=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad
 [general]
 version=1
 [eeschema]
@@ -44,3 +62,9 @@ LibName3=regul
 LibName4=device
 LibName5=opto
 LibName6=transistor
+LibName7=conn
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
