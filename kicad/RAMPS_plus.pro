@@ -1,4 +1,4 @@
-update=15/04/2014 20:44:15
+update=16/04/2014 20:54:17
 last_client=eeschema
 [cvpcb]
 version=1
@@ -40,6 +40,7 @@ LabSize=60
 [eeschema/libraries]
 LibName1=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad/CircuitHub
 LibName2=power
-LibName3=transistors
-LibName4=regul
-LibName5=device
+LibName3=regul
+LibName4=device
+LibName5=opto
+LibName6=transistor

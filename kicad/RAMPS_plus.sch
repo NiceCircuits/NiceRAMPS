@@ -1,17 +1,18 @@
 EESchema Schematic File Version 2
 LIBS:CircuitHub
 LIBS:power
-LIBS:transistors
 LIBS:regul
 LIBS:device
+LIBS:opto
+LIBS:transistor
 LIBS:RAMPS_plus-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title "Ramps plus"
-Date "15 apr 2014"
+Date "16 apr 2014"
 Rev "1.0"
 Comp "peter@7408hacks.com"
 Comment1 ""
@@ -447,5 +448,17 @@ S 5200 2000 1150 600
 U 534454B0
 F0 "Carriage" 50
 F1 "carriage.sch" 50
+$EndSheet
+$Sheet
+S 5200 2950 1150 600 
+U 534EC4C7
+F0 "Y axis" 50
+F1 "Yaxis.sch" 50
+$EndSheet
+$Sheet
+S 5200 3850 1150 600 
+U 534EE32B
+F0 "Panel" 50
+F1 "panel.sch" 50
 $EndSheet
 $EndSCHEMATC
