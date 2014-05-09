@@ -1,1 +1,3 @@
 /kicad/*.bak
+/datasheet
+*.kicad_pcb-bak

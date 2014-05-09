@@ -1,5 +1,5 @@
-update=16/04/2014 22:10:20
-last_client=cvpcb
+update=17/04/2014 22:23:57
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=RAMPS_plus.net
@@ -47,8 +47,16 @@ LibName24=valves
 LibDir=D:/Dropbox/Aplikacje/CircuitHub/parts/kicad
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=D:/Lib/kicad
 NetFmtName=
 RptD_X=0
@@ -63,8 +71,4 @@ LibName4=device
 LibName5=opto
 LibName6=transistor
 LibName7=conn
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName8=pnConnector

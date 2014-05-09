@@ -6,8 +6,9 @@ LIBS:device
 LIBS:opto
 LIBS:transistor
 LIBS:conn
+LIBS:pnConnector
 LIBS:RAMPS_plus-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -128,314 +129,552 @@ F 7 "44380e9a2da422b62a47442557c857819de5167f" H 2200 5700 60  0001 L CNN "footp
 $EndComp
 Text GLabel 1900 1800 0    50   BiDi ~ 0
 IOREF
-Wire Wire Line
-	1900 1800 2100 1800
 Text GLabel 1900 1900 0    50   BiDi ~ 0
 RESET
-Wire Wire Line
-	1900 1900 2100 1900
 Text GLabel 1900 2000 0    50   BiDi ~ 0
 3V3
-Wire Wire Line
-	1900 2000 2100 2000
 Text GLabel 1900 2100 0    50   BiDi ~ 0
 5V
-Wire Wire Line
-	1900 2100 2100 2100
 Text GLabel 1900 2200 0    50   BiDi ~ 0
 GND
-Wire Wire Line
-	1900 2200 2100 2200
 Text GLabel 1900 2300 0    50   BiDi ~ 0
 GND
-Wire Wire Line
-	1900 2300 2100 2300
 Text GLabel 1900 2400 0    50   BiDi ~ 0
 Vin
-Wire Wire Line
-	1900 2400 2100 2400
 Text GLabel 1900 2800 0    50   BiDi ~ 0
 A0
-Wire Wire Line
-	1900 2800 2100 2800
 Text GLabel 1900 2900 0    50   BiDi ~ 0
 A1
-Wire Wire Line
-	1900 2900 2100 2900
 Text GLabel 1900 3000 0    50   BiDi ~ 0
 A2
-Wire Wire Line
-	1900 3000 2100 3000
 Text GLabel 1900 3100 0    50   BiDi ~ 0
 A3
-Wire Wire Line
-	1900 3100 2100 3100
 Text GLabel 1900 3200 0    50   BiDi ~ 0
 A4
-Wire Wire Line
-	1900 3200 2100 3200
 Text GLabel 1900 3300 0    50   BiDi ~ 0
 A5
-Wire Wire Line
-	1900 3300 2100 3300
 Text GLabel 1900 3400 0    50   BiDi ~ 0
 A6
-Wire Wire Line
-	1900 3400 2100 3400
 Text GLabel 1900 3500 0    50   BiDi ~ 0
 A7
-Wire Wire Line
-	1900 3500 2100 3500
 Text GLabel 1900 3900 0    50   BiDi ~ 0
 A8
-Wire Wire Line
-	1900 3900 2100 3900
 Text GLabel 1900 4000 0    50   BiDi ~ 0
 A9
-Wire Wire Line
-	1900 4000 2100 4000
 Text GLabel 1900 4100 0    50   BiDi ~ 0
 A10
-Wire Wire Line
-	1900 4100 2100 4100
 Text GLabel 1900 4200 0    50   BiDi ~ 0
 A11
-Wire Wire Line
-	1900 4200 2100 4200
 Text GLabel 1900 4300 0    50   BiDi ~ 0
 A12
-Wire Wire Line
-	1900 4300 2100 4300
 Text GLabel 1900 4400 0    50   BiDi ~ 0
 A13
-Wire Wire Line
-	1900 4400 2100 4400
 Text GLabel 1900 4500 0    50   BiDi ~ 0
 A14
-Wire Wire Line
-	1900 4500 2100 4500
 Text GLabel 1900 4600 0    50   BiDi ~ 0
 A15
-Wire Wire Line
-	1900 4600 2100 4600
 Text GLabel 3200 3500 2    50   BiDi ~ 0
 D0
-Wire Wire Line
-	3200 3500 3000 3500
 Text GLabel 3200 3400 2    50   BiDi ~ 0
 D1
-Wire Wire Line
-	3200 3400 3000 3400
 Text GLabel 3200 3300 2    50   BiDi ~ 0
 D2
-Wire Wire Line
-	3200 3300 3000 3300
 Text GLabel 3200 3200 2    50   BiDi ~ 0
 D3
-Wire Wire Line
-	3200 3200 3000 3200
 Text GLabel 3200 3100 2    50   BiDi ~ 0
 D4
-Wire Wire Line
-	3200 3100 3000 3100
 Text GLabel 3200 3000 2    50   BiDi ~ 0
 D5
-Wire Wire Line
-	3200 3000 3000 3000
 Text GLabel 3200 2900 2    50   BiDi ~ 0
 D6
-Wire Wire Line
-	3200 2900 3000 2900
 Text GLabel 3200 2800 2    50   BiDi ~ 0
 D7
-Wire Wire Line
-	3200 2800 3000 2800
 Text GLabel 3200 2400 2    50   BiDi ~ 0
 D8
-Wire Wire Line
-	3200 2400 3000 2400
 Text GLabel 3200 2300 2    50   BiDi ~ 0
 D9
-Wire Wire Line
-	3200 2300 3000 2300
 Text GLabel 3200 2200 2    50   BiDi ~ 0
 D10
-Wire Wire Line
-	3200 2200 3000 2200
 Text GLabel 3200 2100 2    50   BiDi ~ 0
 D11
-Wire Wire Line
-	3200 2100 3000 2100
 Text GLabel 3200 2000 2    50   BiDi ~ 0
 D12
-Wire Wire Line
-	3200 2000 3000 2000
 Text GLabel 3200 1900 2    50   BiDi ~ 0
 D13
-Wire Wire Line
-	3200 1900 3000 1900
 Text GLabel 3200 3900 2    50   BiDi ~ 0
 D14
-Wire Wire Line
-	3200 3900 3000 3900
 Text GLabel 3200 4000 2    50   BiDi ~ 0
 D15
-Wire Wire Line
-	3200 4000 3000 4000
 Text GLabel 3200 4100 2    50   BiDi ~ 0
 D16
-Wire Wire Line
-	3200 4100 3000 4100
 Text GLabel 3200 4200 2    50   BiDi ~ 0
 D17
-Wire Wire Line
-	3200 4200 3000 4200
 Text GLabel 3200 4300 2    50   BiDi ~ 0
 D18
-Wire Wire Line
-	3200 4300 3000 4300
 Text GLabel 3200 4400 2    50   BiDi ~ 0
 D19
-Wire Wire Line
-	3200 4400 3000 4400
 Text GLabel 3200 4500 2    50   BiDi ~ 0
 D20
-Wire Wire Line
-	3200 4500 3000 4500
 Text GLabel 3200 4600 2    50   BiDi ~ 0
 D21
-Wire Wire Line
-	3200 4600 3000 4600
 Text GLabel 1900 5100 0    50   BiDi ~ 0
 D22
-Wire Wire Line
-	1900 5100 2100 5100
 Text GLabel 1900 5200 0    50   BiDi ~ 0
 D24
-Wire Wire Line
-	1900 5200 2100 5200
 Text GLabel 1900 5300 0    50   BiDi ~ 0
 D26
-Wire Wire Line
-	1900 5300 2100 5300
 Text GLabel 1900 5400 0    50   BiDi ~ 0
 D28
-Wire Wire Line
-	1900 5400 2100 5400
 Text GLabel 1900 5500 0    50   BiDi ~ 0
 D30
-Wire Wire Line
-	1900 5500 2100 5500
 Text GLabel 1900 5600 0    50   BiDi ~ 0
 D32
-Wire Wire Line
-	1900 5600 2100 5600
 Text GLabel 1900 5700 0    50   BiDi ~ 0
 D34
-Wire Wire Line
-	1900 5700 2100 5700
 Text GLabel 1900 5800 0    50   BiDi ~ 0
 D36
-Wire Wire Line
-	1900 5800 2100 5800
 Text GLabel 1900 5900 0    50   BiDi ~ 0
 D38
-Wire Wire Line
-	1900 5900 2100 5900
 Text GLabel 1900 6000 0    50   BiDi ~ 0
 D40
-Wire Wire Line
-	1900 6000 2100 6000
 Text GLabel 1900 6100 0    50   BiDi ~ 0
 D42
-Wire Wire Line
-	1900 6100 2100 6100
 Text GLabel 1900 6200 0    50   BiDi ~ 0
 D44
-Wire Wire Line
-	1900 6200 2100 6200
 Text GLabel 1900 6300 0    50   BiDi ~ 0
 D46
-Wire Wire Line
-	1900 6300 2100 6300
 Text GLabel 1900 6400 0    50   BiDi ~ 0
 D48
-Wire Wire Line
-	1900 6400 2100 6400
 Text GLabel 1900 6500 0    50   BiDi ~ 0
 D50
-Wire Wire Line
-	1900 6500 2100 6500
 Text GLabel 1900 6600 0    50   BiDi ~ 0
 D52
-Wire Wire Line
-	1900 6600 2100 6600
 Text GLabel 3100 5100 2    50   BiDi ~ 0
 D23
-Wire Wire Line
-	3100 5100 2900 5100
 Text GLabel 3100 5200 2    50   BiDi ~ 0
 D25
-Wire Wire Line
-	3100 5200 2900 5200
 Text GLabel 3100 5300 2    50   BiDi ~ 0
 D27
-Wire Wire Line
-	3100 5300 2900 5300
 Text GLabel 3100 5400 2    50   BiDi ~ 0
 D29
-Wire Wire Line
-	3100 5400 2900 5400
 Text GLabel 3100 5500 2    50   BiDi ~ 0
 D31
-Wire Wire Line
-	3100 5500 2900 5500
 Text GLabel 3100 5600 2    50   BiDi ~ 0
 D33
-Wire Wire Line
-	3100 5600 2900 5600
 Text GLabel 3100 5700 2    50   BiDi ~ 0
 D35
-Wire Wire Line
-	3100 5700 2900 5700
 Text GLabel 3100 5800 2    50   BiDi ~ 0
 D37
-Wire Wire Line
-	3100 5800 2900 5800
 Text GLabel 3100 5900 2    50   BiDi ~ 0
 D39
-Wire Wire Line
-	3100 5900 2900 5900
 Text GLabel 3100 6000 2    50   BiDi ~ 0
 D41
-Wire Wire Line
-	3100 6000 2900 6000
 Text GLabel 3100 6100 2    50   BiDi ~ 0
 D43
-Wire Wire Line
-	3100 6100 2900 6100
 Text GLabel 3100 6200 2    50   BiDi ~ 0
 D45
-Wire Wire Line
-	3100 6200 2900 6200
 Text GLabel 3100 6300 2    50   BiDi ~ 0
 D47
-Wire Wire Line
-	3100 6300 2900 6300
 Text GLabel 3100 6400 2    50   BiDi ~ 0
 D49
-Wire Wire Line
-	3100 6400 2900 6400
 Text GLabel 3100 6500 2    50   BiDi ~ 0
 D51
-Wire Wire Line
-	3100 6500 2900 6500
 Text GLabel 3100 6600 2    50   BiDi ~ 0
 D53
-Wire Wire Line
-	3100 6600 2900 6600
 Text Notes 1300 1250 0    100  Italic 0
 Arduino Mega shield connectors
+$Sheet
+S 9500 1150 1150 600 
+U 534454B0
+F0 "Carriage" 50
+F1 "carriage.sch" 50
+$EndSheet
+$Sheet
+S 9500 2050 1150 600 
+U 534EC4C7
+F0 "Y axis" 50
+F1 "Yaxis.sch" 50
+$EndSheet
+$Sheet
+S 9500 2950 1150 600 
+U 534EE32B
+F0 "Panel" 50
+F1 "panel.sch" 50
+$EndSheet
+$Comp
+L FUSE F1
+U 1 1 536D2582
+P 6250 2700
+F 0 "F1" H 6350 2750 40  0000 C CNN
+F 1 "FUSE" H 6150 2650 40  0000 C CNN
+F 2 "" H 6250 2700 60  0000 C CNN
+F 3 "" H 6250 2700 60  0000 C CNN
+	1    6250 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F2
+U 1 1 536D2596
+P 6250 3400
+F 0 "F2" H 6350 3450 40  0000 C CNN
+F 1 "FUSE" H 6150 3350 40  0000 C CNN
+F 2 "" H 6250 3400 60  0000 C CNN
+F 3 "" H 6250 3400 60  0000 C CNN
+	1    6250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F3
+U 1 1 536D25AA
+P 6250 4100
+F 0 "F3" H 6350 4150 40  0000 C CNN
+F 1 "FUSE" H 6150 4050 40  0000 C CNN
+F 2 "" H 6250 4100 60  0000 C CNN
+F 3 "" H 6250 4100 60  0000 C CNN
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F4
+U 1 1 536D25BE
+P 6850 4850
+F 0 "F4" H 6950 4900 40  0000 C CNN
+F 1 "FUSE" H 6750 4800 40  0000 C CNN
+F 2 "" H 6850 4850 60  0000 C CNN
+F 3 "" H 6850 4850 60  0000 C CNN
+	1    6850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P18
+U 1 1 536D2EAF
+P 4750 3450
+F 0 "P18" V 4700 3450 60  0000 C CNN
+F 1 "CONN_6" V 4800 3450 60  0000 C CNN
+F 2 "" H 4750 3450 60  0000 C CNN
+F 3 "" H 4750 3450 60  0000 C CNN
+	1    4750 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 536D3025
+P 5150 3850
+F 0 "#PWR1" H 5150 3850 30  0001 C CNN
+F 1 "GND" H 5150 3780 30  0001 C CNN
+F 2 "" H 5150 3850 60  0000 C CNN
+F 3 "" H 5150 3850 60  0000 C CNN
+	1    5150 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 5550 2250 0    60   ~ 0
+Littelfuse MINI Blade Fuse\nmodel 0297015 (15A)\n% of rating | opening time max\n135%       | 600s\n200%       | 5 s \n350%       | 0.25 s \n600%       | 0.1 s
+$Comp
+L "1851-SS54" D7
+U 1 1 536D3B53
+P 6550 3050
+F 0 "D7" H 6550 3080 60  0000 L CNN
+F 1 "\"1851-SS54\"" H 6550 2820 60  0000 L CNN
+F 2 "7408hacks/dibfu" H 6550 3350 60  0001 L CNN
+F 3 "https://circuithub.com/parts/MULTICOMP/SS54/documents" H 6550 3450 60  0001 L CNN
+F 4 "1851" H 6550 3550 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dibhf" H 6550 3650 60  0001 L CNN "symbolURN"
+F 6 "989e3d02103c1d02896191dd422843269d8c9c8a" H 6550 3750 60  0001 L CNN "symbolRevision"
+F 7 "f2202c34f93e2f9121d8e3797ea134d3c7ac98b4" H 6550 3850 60  0001 L CNN "footprintRevision"
+	1    6550 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L "1851-SS54" D8
+U 1 1 536D3B7D
+P 6550 3750
+F 0 "D8" H 6550 3780 60  0000 L CNN
+F 1 "\"1851-SS54\"" H 6550 3520 60  0000 L CNN
+F 2 "7408hacks/dibfu" H 6550 4050 60  0001 L CNN
+F 3 "https://circuithub.com/parts/MULTICOMP/SS54/documents" H 6550 4150 60  0001 L CNN
+F 4 "1851" H 6550 4250 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dibhf" H 6550 4350 60  0001 L CNN "symbolURN"
+F 6 "989e3d02103c1d02896191dd422843269d8c9c8a" H 6550 4450 60  0001 L CNN "symbolRevision"
+F 7 "f2202c34f93e2f9121d8e3797ea134d3c7ac98b4" H 6550 4550 60  0001 L CNN "footprintRevision"
+	1    6550 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L "1851-SS54" D9
+U 1 1 536D3B90
+P 6550 4450
+F 0 "D9" H 6550 4480 60  0000 L CNN
+F 1 "\"1851-SS54\"" H 6550 4220 60  0000 L CNN
+F 2 "7408hacks/dibfu" H 6550 4750 60  0001 L CNN
+F 3 "https://circuithub.com/parts/MULTICOMP/SS54/documents" H 6550 4850 60  0001 L CNN
+F 4 "1851" H 6550 4950 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dibhf" H 6550 5050 60  0001 L CNN "symbolURN"
+F 6 "989e3d02103c1d02896191dd422843269d8c9c8a" H 6550 5150 60  0001 L CNN "symbolRevision"
+F 7 "f2202c34f93e2f9121d8e3797ea134d3c7ac98b4" H 6550 5250 60  0001 L CNN "footprintRevision"
+	1    6550 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L "1851-SS54" D5
+U 1 1 536D3BA3
+P 6100 4750
+F 0 "D5" H 6100 4780 60  0000 L CNN
+F 1 "N.C." H 6100 4520 60  0000 L CNN
+F 2 "7408hacks/dibfu" H 6100 5050 60  0001 L CNN
+F 3 "https://circuithub.com/parts/MULTICOMP/SS54/documents" H 6100 5150 60  0001 L CNN
+F 4 "1851" H 6100 5250 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dibhf" H 6100 5350 60  0001 L CNN "symbolURN"
+F 6 "989e3d02103c1d02896191dd422843269d8c9c8a" H 6100 5450 60  0001 L CNN "symbolRevision"
+F 7 "f2202c34f93e2f9121d8e3797ea134d3c7ac98b4" H 6100 5550 60  0001 L CNN "footprintRevision"
+	1    6100 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR6
+U 1 1 536D3E3D
+P 6650 3850
+F 0 "#PWR6" H 6650 3850 30  0001 C CNN
+F 1 "GND" H 6650 3780 30  0001 C CNN
+F 2 "" H 6650 3850 60  0000 C CNN
+F 3 "" H 6650 3850 60  0000 C CNN
+	1    6650 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 536D3E48
+P 6650 3150
+F 0 "#PWR5" H 6650 3150 30  0001 C CNN
+F 1 "GND" H 6650 3080 30  0001 C CNN
+F 2 "" H 6650 3150 60  0000 C CNN
+F 3 "" H 6650 3150 60  0000 C CNN
+	1    6650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR7
+U 1 1 536D3E53
+P 6650 4550
+F 0 "#PWR7" H 6650 4550 30  0001 C CNN
+F 1 "GND" H 6650 4480 30  0001 C CNN
+F 2 "" H 6650 4550 60  0000 C CNN
+F 3 "" H 6650 4550 60  0000 C CNN
+	1    6650 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L "1851-SS54" D6
+U 1 1 536D3EB6
+P 6100 5100
+F 0 "D6" H 6100 5130 60  0000 L CNN
+F 1 "\"1851-SS54\"" H 6100 4870 60  0000 L CNN
+F 2 "7408hacks/dibfu" H 6100 5400 60  0001 L CNN
+F 3 "https://circuithub.com/parts/MULTICOMP/SS54/documents" H 6100 5500 60  0001 L CNN
+F 4 "1851" H 6100 5600 60  0001 L CNN "CircuitHubID"
+F 5 "7408hacks/dibhf" H 6100 5700 60  0001 L CNN "symbolURN"
+F 6 "989e3d02103c1d02896191dd422843269d8c9c8a" H 6100 5800 60  0001 L CNN "symbolRevision"
+F 7 "f2202c34f93e2f9121d8e3797ea134d3c7ac98b4" H 6100 5900 60  0001 L CNN "footprintRevision"
+	1    6100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 536D407F
+P 5600 2950
+F 0 "C11" H 5600 3050 40  0000 L CNN
+F 1 "100n/50V" H 5606 2865 40  0000 L CNN
+F 2 "0603" H 5638 2800 30  0000 C CNN
+F 3 "" H 5600 2950 60  0000 C CNN
+	1    5600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 536D4137
+P 5600 3150
+F 0 "#PWR2" H 5600 3150 30  0001 C CNN
+F 1 "GND" H 5600 3080 30  0001 C CNN
+F 2 "" H 5600 3150 60  0000 C CNN
+F 3 "" H 5600 3150 60  0000 C CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 536D4142
+P 5600 3850
+F 0 "#PWR3" H 5600 3850 30  0001 C CNN
+F 1 "GND" H 5600 3780 30  0001 C CNN
+F 2 "" H 5600 3850 60  0000 C CNN
+F 3 "" H 5600 3850 60  0000 C CNN
+	1    5600 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR4
+U 1 1 536D414D
+P 5600 4550
+F 0 "#PWR4" H 5600 4550 30  0001 C CNN
+F 1 "GND" H 5600 4480 30  0001 C CNN
+F 2 "" H 5600 4550 60  0000 C CNN
+F 3 "" H 5600 4550 60  0000 C CNN
+	1    5600 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1800 2100 1800
+Wire Wire Line
+	1900 1900 2100 1900
+Wire Wire Line
+	1900 2000 2100 2000
+Wire Wire Line
+	1900 2100 2100 2100
+Wire Wire Line
+	1900 2200 2100 2200
+Wire Wire Line
+	1900 2300 2100 2300
+Wire Wire Line
+	1900 2400 2100 2400
+Wire Wire Line
+	1900 2800 2100 2800
+Wire Wire Line
+	1900 2900 2100 2900
+Wire Wire Line
+	1900 3000 2100 3000
+Wire Wire Line
+	1900 3100 2100 3100
+Wire Wire Line
+	1900 3200 2100 3200
+Wire Wire Line
+	1900 3300 2100 3300
+Wire Wire Line
+	1900 3400 2100 3400
+Wire Wire Line
+	1900 3500 2100 3500
+Wire Wire Line
+	1900 3900 2100 3900
+Wire Wire Line
+	1900 4000 2100 4000
+Wire Wire Line
+	1900 4100 2100 4100
+Wire Wire Line
+	1900 4200 2100 4200
+Wire Wire Line
+	1900 4300 2100 4300
+Wire Wire Line
+	1900 4400 2100 4400
+Wire Wire Line
+	1900 4500 2100 4500
+Wire Wire Line
+	1900 4600 2100 4600
+Wire Wire Line
+	3200 3500 3000 3500
+Wire Wire Line
+	3200 3400 3000 3400
+Wire Wire Line
+	3200 3300 3000 3300
+Wire Wire Line
+	3200 3200 3000 3200
+Wire Wire Line
+	3200 3100 3000 3100
+Wire Wire Line
+	3200 3000 3000 3000
+Wire Wire Line
+	3200 2900 3000 2900
+Wire Wire Line
+	3200 2800 3000 2800
+Wire Wire Line
+	3200 2400 3000 2400
+Wire Wire Line
+	3200 2300 3000 2300
+Wire Wire Line
+	3200 2200 3000 2200
+Wire Wire Line
+	3200 2100 3000 2100
+Wire Wire Line
+	3200 2000 3000 2000
+Wire Wire Line
+	3200 1900 3000 1900
+Wire Wire Line
+	3200 3900 3000 3900
+Wire Wire Line
+	3200 4000 3000 4000
+Wire Wire Line
+	3200 4100 3000 4100
+Wire Wire Line
+	3200 4200 3000 4200
+Wire Wire Line
+	3200 4300 3000 4300
+Wire Wire Line
+	3200 4400 3000 4400
+Wire Wire Line
+	3200 4500 3000 4500
+Wire Wire Line
+	3200 4600 3000 4600
+Wire Wire Line
+	1900 5100 2100 5100
+Wire Wire Line
+	1900 5200 2100 5200
+Wire Wire Line
+	1900 5300 2100 5300
+Wire Wire Line
+	1900 5400 2100 5400
+Wire Wire Line
+	1900 5500 2100 5500
+Wire Wire Line
+	1900 5600 2100 5600
+Wire Wire Line
+	1900 5700 2100 5700
+Wire Wire Line
+	1900 5800 2100 5800
+Wire Wire Line
+	1900 5900 2100 5900
+Wire Wire Line
+	1900 6000 2100 6000
+Wire Wire Line
+	1900 6100 2100 6100
+Wire Wire Line
+	1900 6200 2100 6200
+Wire Wire Line
+	1900 6300 2100 6300
+Wire Wire Line
+	1900 6400 2100 6400
+Wire Wire Line
+	1900 6500 2100 6500
+Wire Wire Line
+	1900 6600 2100 6600
+Wire Wire Line
+	3100 5100 2900 5100
+Wire Wire Line
+	3100 5200 2900 5200
+Wire Wire Line
+	3100 5300 2900 5300
+Wire Wire Line
+	3100 5400 2900 5400
+Wire Wire Line
+	3100 5500 2900 5500
+Wire Wire Line
+	3100 5600 2900 5600
+Wire Wire Line
+	3100 5700 2900 5700
+Wire Wire Line
+	3100 5800 2900 5800
+Wire Wire Line
+	3100 5900 2900 5900
+Wire Wire Line
+	3100 6000 2900 6000
+Wire Wire Line
+	3100 6100 2900 6100
+Wire Wire Line
+	3100 6200 2900 6200
+Wire Wire Line
+	3100 6300 2900 6300
+Wire Wire Line
+	3100 6400 2900 6400
+Wire Wire Line
+	3100 6500 2900 6500
+Wire Wire Line
+	3100 6600 2900 6600
 Wire Notes Line
 	1200 1050 1200 7000
 Wire Notes Line
@@ -444,22 +683,134 @@ Wire Notes Line
 	3850 7000 3850 1050
 Wire Notes Line
 	3850 1050 1200 1050
-$Sheet
-S 5200 2000 1150 600 
-U 534454B0
-F0 "Carriage" 50
-F1 "carriage.sch" 50
-$EndSheet
-$Sheet
-S 5200 2950 1150 600 
-U 534EC4C7
-F0 "Y axis" 50
-F1 "Yaxis.sch" 50
-$EndSheet
-$Sheet
-S 5200 3850 1150 600 
-U 534EE32B
-F0 "Panel" 50
-F1 "panel.sch" 50
-$EndSheet
+Wire Wire Line
+	5150 3700 5100 3700
+Wire Wire Line
+	5100 3300 5150 3300
+Wire Wire Line
+	5150 3300 5150 3500
+Wire Wire Line
+	5150 3500 5150 3700
+Wire Wire Line
+	5150 3700 5150 3850
+Wire Wire Line
+	5100 3500 5150 3500
+Connection ~ 5150 3500
+Wire Wire Line
+	5100 3400 5600 3400
+Wire Wire Line
+	5600 3400 5950 3400
+Wire Wire Line
+	5950 3400 6000 3400
+Wire Wire Line
+	5200 3200 5100 3200
+Wire Wire Line
+	5200 2700 5200 3200
+Wire Wire Line
+	5100 3600 5300 3600
+Wire Wire Line
+	5300 3600 5300 4100
+Wire Wire Line
+	5300 4100 5600 4100
+Wire Wire Line
+	5600 4100 5850 4100
+Wire Wire Line
+	5850 4100 6000 4100
+Wire Wire Line
+	5200 2700 5600 2700
+Wire Wire Line
+	5600 2700 6000 2700
+Wire Wire Line
+	6500 3400 6650 3400
+Wire Wire Line
+	6650 3400 7000 3400
+Wire Wire Line
+	6650 3400 6650 3450
+Wire Wire Line
+	6500 2700 6650 2700
+Wire Wire Line
+	6650 2700 7000 2700
+Wire Wire Line
+	6650 2700 6650 2750
+Wire Wire Line
+	6500 4100 6650 4100
+Wire Wire Line
+	6650 4100 7000 4100
+Wire Wire Line
+	6650 4100 6650 4150
+Wire Wire Line
+	5950 3400 5950 4850
+Wire Wire Line
+	5950 4850 6000 4850
+Connection ~ 5950 3400
+Wire Wire Line
+	5850 5200 6000 5200
+Wire Wire Line
+	6400 4850 6500 4850
+Wire Wire Line
+	6500 4850 6600 4850
+Wire Wire Line
+	6400 5200 6500 5200
+Wire Wire Line
+	6500 5200 6500 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	5850 5200 5850 4100
+Connection ~ 5850 4100
+Wire Wire Line
+	5600 4150 5600 4100
+Connection ~ 5600 4100
+Wire Wire Line
+	5600 3450 5600 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	5600 2750 5600 2700
+Connection ~ 5600 2700
+Connection ~ 5150 3700
+$Comp
+L C C12
+U 1 1 536D4561
+P 5600 3650
+F 0 "C12" H 5600 3750 40  0000 L CNN
+F 1 "100n/50V" H 5606 3565 40  0000 L CNN
+F 2 "0603" H 5638 3500 30  0000 C CNN
+F 3 "" H 5600 3650 60  0000 C CNN
+	1    5600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 536D456C
+P 5600 4350
+F 0 "C13" H 5600 4450 40  0000 L CNN
+F 1 "100n/50V" H 5606 4265 40  0000 L CNN
+F 2 "0603" H 5638 4200 30  0000 C CNN
+F 3 "" H 5600 4350 60  0000 C CNN
+	1    5600 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 4100
+Wire Wire Line
+	7100 4850 7200 4850
+Connection ~ 6650 3400
+Connection ~ 6650 2700
+Text GLabel 7000 2700 2    60   UnSpc ~ 0
+Vbed
+Text GLabel 7000 3400 2    60   UnSpc ~ 0
+Vheat
+Text GLabel 7000 4100 2    60   UnSpc ~ 0
+Vmot
+$Comp
+L +12V #PWR?
+U 1 1 536D47B0
+P 7200 4800
+F 0 "#PWR?" H 7200 4750 20  0001 C CNN
+F 1 "+12V" H 7200 4900 30  0000 C CNN
+F 2 "" H 7200 4800 60  0000 C CNN
+F 3 "" H 7200 4800 60  0000 C CNN
+	1    7200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4850 7200 4800
 $EndSCHEMATC
