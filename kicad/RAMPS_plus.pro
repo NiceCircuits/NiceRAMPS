@@ -1,4 +1,4 @@
-update=11/05/2014 17:59:01
+update=11/05/2014 22:29:11
 last_client=eeschema
 [pcbnew]
 version=1
@@ -75,3 +75,6 @@ LibName8=pnDiode
 LibName9=pnTransistor
 LibName10=pnSymbols
 LibName11=pnPins
+LibName12=pnModules
+LibName13=pnAnalogOther
+LibName14=pnLogic
