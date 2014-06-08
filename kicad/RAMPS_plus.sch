@@ -18,7 +18,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "Ramps plus"
 Date "16 apr 2014"
 Rev "1.0"
@@ -179,242 +179,23 @@ D53
 Text Notes 950  1250 0    100  Italic 0
 Arduino Mega shield connectors
 $Sheet
-S 9500 1150 1150 600 
+S 5400 2250 1150 600 
 U 534454B0
 F0 "Carriage" 50
 F1 "carriage.sch" 50
 $EndSheet
 $Sheet
-S 9500 2050 1150 600 
+S 5400 3150 1150 600 
 U 534EC4C7
 F0 "YZ axis" 50
 F1 "YZaxis.sch" 50
 $EndSheet
 $Sheet
-S 9500 2950 1150 600 
+S 5400 4050 1150 600 
 U 534EE32B
 F0 "Panel" 50
 F1 "panel.sch" 50
 $EndSheet
-$Comp
-L GND #PWR01
-U 1 1 536D3025
-P 5150 3850
-F 0 "#PWR01" H 5150 3850 30  0001 C CNN
-F 1 "GND" H 5150 3780 30  0001 C CNN
-F 2 "" H 5150 3850 60  0000 C CNN
-F 3 "" H 5150 3850 60  0000 C CNN
-	1    5150 3850
-	1    0    0    -1  
-$EndComp
-Text Notes 5550 2250 0    60   ~ 0
-Littelfuse MINI Blade Fuse\nmodel 0297015 (15A)\n% of rating | opening time max\n135%       | 600s\n200%       | 5 s \n350%       | 0.25 s \n600%       | 0.1 s\nReverse protection diode should \nwithstand at least 50A for 0.3s.
-$Comp
-L GND #PWR02
-U 1 1 536D3E3D
-P 6650 3850
-F 0 "#PWR02" H 6650 3850 30  0001 C CNN
-F 1 "GND" H 6650 3780 30  0001 C CNN
-F 2 "" H 6650 3850 60  0000 C CNN
-F 3 "" H 6650 3850 60  0000 C CNN
-	1    6650 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 536D3E48
-P 6650 3150
-F 0 "#PWR03" H 6650 3150 30  0001 C CNN
-F 1 "GND" H 6650 3080 30  0001 C CNN
-F 2 "" H 6650 3150 60  0000 C CNN
-F 3 "" H 6650 3150 60  0000 C CNN
-	1    6650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 536D3E53
-P 6650 4550
-F 0 "#PWR04" H 6650 4550 30  0001 C CNN
-F 1 "GND" H 6650 4480 30  0001 C CNN
-F 2 "" H 6650 4550 60  0000 C CNN
-F 3 "" H 6650 4550 60  0000 C CNN
-	1    6650 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 536D407F
-P 5600 2950
-F 0 "C1" H 5600 3050 40  0000 L CNN
-F 1 "100n/50V" H 5606 2865 40  0000 L CNN
-F 2 "0603" H 5700 2800 30  0000 C CNN
-F 3 "" H 5600 2950 60  0000 C CNN
-	1    5600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR05
-U 1 1 536D4137
-P 5600 3150
-F 0 "#PWR05" H 5600 3150 30  0001 C CNN
-F 1 "GND" H 5600 3080 30  0001 C CNN
-F 2 "" H 5600 3150 60  0000 C CNN
-F 3 "" H 5600 3150 60  0000 C CNN
-	1    5600 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR06
-U 1 1 536D4142
-P 5600 3850
-F 0 "#PWR06" H 5600 3850 30  0001 C CNN
-F 1 "GND" H 5600 3780 30  0001 C CNN
-F 2 "" H 5600 3850 60  0000 C CNN
-F 3 "" H 5600 3850 60  0000 C CNN
-	1    5600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR07
-U 1 1 536D414D
-P 5600 4550
-F 0 "#PWR07" H 5600 4550 30  0001 C CNN
-F 1 "GND" H 5600 4480 30  0001 C CNN
-F 2 "" H 5600 4550 60  0000 C CNN
-F 3 "" H 5600 4550 60  0000 C CNN
-	1    5600 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 536D4561
-P 5600 3650
-F 0 "C2" H 5600 3750 40  0000 L CNN
-F 1 "100n/50V" H 5606 3565 40  0000 L CNN
-F 2 "0603" H 5700 3500 30  0000 C CNN
-F 3 "" H 5600 3650 60  0000 C CNN
-	1    5600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 536D456C
-P 5600 4350
-F 0 "C3" H 5600 4450 40  0000 L CNN
-F 1 "100n/50V" H 5606 4265 40  0000 L CNN
-F 2 "0603" H 5700 4200 30  0000 C CNN
-F 3 "" H 5600 4350 60  0000 C CNN
-	1    5600 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 2700 2    60   UnSpc ~ 0
-Vbed
-Text GLabel 7250 3400 2    60   UnSpc ~ 0
-Vheat
-Text GLabel 7250 4100 2    60   UnSpc ~ 0
-Vmot
-$Comp
-L SS54 D1
-U 1 1 536F40AA
-P 6650 2900
-F 0 "D1" H 6650 2800 60  0000 C CNN
-F 1 "SS54" H 6650 2990 60  0000 C CNN
-F 2 "SMC" H 6650 3050 30  0000 C CNN
-F 3 "" V 6650 2900 60  0000 C CNN
-	1    6650 2900
-	0    1    -1   0   
-$EndComp
-$Comp
-L SS54 D2
-U 1 1 536F4331
-P 6650 3600
-F 0 "D2" H 6650 3500 60  0000 C CNN
-F 1 "SS54" H 6650 3690 60  0000 C CNN
-F 2 "SMC" H 6650 3750 30  0000 C CNN
-F 3 "" V 6650 3600 60  0000 C CNN
-	1    6650 3600
-	0    1    -1   0   
-$EndComp
-$Comp
-L SS54 D3
-U 1 1 536F433C
-P 6650 4300
-F 0 "D3" H 6650 4200 60  0000 C CNN
-F 1 "SS54" H 6650 4390 60  0000 C CNN
-F 2 "SMC" H 6650 4450 30  0000 C CNN
-F 3 "" V 6650 4300 60  0000 C CNN
-	1    6650 4300
-	0    1    -1   0   
-$EndComp
-$Comp
-L SS54 D4
-U 1 1 536F4347
-P 6150 4850
-F 0 "D4" H 6150 4750 60  0000 C CNN
-F 1 "SS54" H 6150 4940 60  0000 C CNN
-F 2 "SMC" H 6150 5000 30  0000 C CNN
-F 3 "" V 6150 4850 60  0000 C CNN
-	1    6150 4850
-	1    0    0    1   
-$EndComp
-$Comp
-L SS54 D5
-U 1 1 536F4352
-P 6150 5200
-F 0 "D5" H 6150 5100 60  0000 C CNN
-F 1 "SS54" H 6150 5290 60  0000 C CNN
-F 2 "SMC" H 6150 5350 30  0000 C CNN
-F 3 "" V 6150 5200 60  0000 C CNN
-	1    6150 5200
-	1    0    0    1   
-$EndComp
-$Comp
-L MINI_Blade_Fuse_Holder F1
-U 1 1 536F47B3
-P 6150 2700
-F 0 "F1" H 6150 2840 60  0000 C CNN
-F 1 "MINI_Blade_Fuse_Holder" H 6150 2615 60  0001 C CNN
-F 2 "Littlefuse_01530008" H 6140 2770 40  0000 C CNN
-F 3 "" V 6150 2700 30  0000 C CNN
-	1    6150 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L MINI_Blade_Fuse_Holder F2
-U 1 1 536F4828
-P 6150 3400
-F 0 "F2" H 6150 3540 60  0000 C CNN
-F 1 "MINI_Blade_Fuse_Holder" H 6150 3315 60  0001 C CNN
-F 2 "Littlefuse_01530008" H 6140 3470 40  0000 C CNN
-F 3 "" V 6150 3400 30  0000 C CNN
-	1    6150 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L MINI_Blade_Fuse_Holder F3
-U 1 1 536F4833
-P 6150 4100
-F 0 "F3" H 6150 4240 60  0000 C CNN
-F 1 "MINI_Blade_Fuse_Holder" H 6150 4015 60  0001 C CNN
-F 2 "Littlefuse_01530008" H 6140 4170 40  0000 C CNN
-F 3 "" V 6150 4100 30  0000 C CNN
-	1    6150 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MINI_Blade_Fuse_Holder F4
-U 1 1 536F483E
-P 6750 4850
-F 0 "F4" H 6750 4990 60  0000 C CNN
-F 1 "MINI_Blade_Fuse_Holder" H 6750 4765 60  0001 C CNN
-F 2 "Littlefuse_01530008" H 6740 4920 40  0000 C CNN
-F 3 "" V 6750 4850 30  0000 C CNN
-	1    6750 4850
-	1    0    0    -1  
-$EndComp
-Text GLabel 7250 4850 2    60   UnSpc ~ 0
-+12V
 $Comp
 L CON8 CON2
 U 1 1 536FA476
@@ -529,17 +310,6 @@ Text GLabel 1850 5000 0    50   UnSpc ~ 0
 5V
 Text GLabel 2550 5000 2    50   UnSpc ~ 0
 5V
-$Comp
-L CON6 CON5
-U 1 1 536FABD7
-P 4900 3450
-F 0 "CON5" H 4900 3820 60  0000 C CNN
-F 1 "CON6" H 4900 3100 60  0000 C CNN
-F 2 "" H 4900 3450 40  0000 C CNN
-F 3 "" H 4900 3450 40  0000 C CNN
-	1    4900 3450
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 1750 1700
 NoConn ~ 2650 1500
 NoConn ~ 2650 1600
@@ -548,72 +318,6 @@ NoConn ~ 2650 1800
 NoConn ~ 1750 2000
 Text GLabel 1650 2400 0    60   UnSpc ~ 0
 +12V
-$Comp
-L PWR_FLAG #FLG011
-U 1 1 538D0D99
-P 7150 2650
-F 0 "#FLG011" H 7150 2745 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 2830 30  0000 C CNN
-F 2 "" H 7150 2650 60  0000 C CNN
-F 3 "" H 7150 2650 60  0000 C CNN
-	1    7150 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG012
-U 1 1 538D0DAD
-P 7150 3350
-F 0 "#FLG012" H 7150 3445 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 3530 30  0000 C CNN
-F 2 "" H 7150 3350 60  0000 C CNN
-F 3 "" H 7150 3350 60  0000 C CNN
-	1    7150 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG013
-U 1 1 538D0DC1
-P 7150 4050
-F 0 "#FLG013" H 7150 4145 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 4230 30  0000 C CNN
-F 2 "" H 7150 4050 60  0000 C CNN
-F 3 "" H 7150 4050 60  0000 C CNN
-	1    7150 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG014
-U 1 1 538D0DD5
-P 7150 4800
-F 0 "#FLG014" H 7150 4895 30  0001 C CNN
-F 1 "PWR_FLAG" H 7150 4980 30  0000 C CNN
-F 2 "" H 7150 4800 60  0000 C CNN
-F 3 "" H 7150 4800 60  0000 C CNN
-	1    7150 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG015
-U 1 1 538D19C2
-P 5000 5350
-F 0 "#FLG015" H 5000 5445 30  0001 C CNN
-F 1 "PWR_FLAG" H 5000 5530 30  0000 C CNN
-F 2 "" H 5000 5350 60  0000 C CNN
-F 3 "" H 5000 5350 60  0000 C CNN
-	1    5000 5350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR016
-U 1 1 538D1AE5
-P 5000 5450
-F 0 "#PWR016" H 5000 5450 30  0001 C CNN
-F 1 "GND" H 5000 5380 30  0001 C CNN
-F 2 "" H 5000 5450 60  0000 C CNN
-F 3 "" H 5000 5450 60  0000 C CNN
-	1    5000 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 1800 1750 1800
 Wire Wire Line
@@ -777,85 +481,6 @@ Wire Notes Line
 Wire Notes Line
 	3850 1050 600  1050
 Wire Wire Line
-	5150 3700 5100 3700
-Wire Wire Line
-	5100 3300 5150 3300
-Wire Wire Line
-	5150 3300 5150 3850
-Wire Wire Line
-	5100 3500 5150 3500
-Connection ~ 5150 3500
-Wire Wire Line
-	5100 3400 6000 3400
-Wire Wire Line
-	5200 3200 5100 3200
-Wire Wire Line
-	5200 2700 5200 3200
-Wire Wire Line
-	5100 3600 5300 3600
-Wire Wire Line
-	5300 3600 5300 4100
-Wire Wire Line
-	5300 4100 6000 4100
-Wire Wire Line
-	5200 2700 6000 2700
-Wire Wire Line
-	6300 3400 7250 3400
-Wire Wire Line
-	6650 3400 6650 3450
-Wire Wire Line
-	6300 2700 7250 2700
-Wire Wire Line
-	6650 2700 6650 2750
-Wire Wire Line
-	6300 4100 7250 4100
-Wire Wire Line
-	6650 4100 6650 4150
-Wire Wire Line
-	5950 3400 5950 4850
-Wire Wire Line
-	5950 4850 6000 4850
-Connection ~ 5950 3400
-Wire Wire Line
-	5850 5200 6000 5200
-Wire Wire Line
-	6300 4850 6600 4850
-Wire Wire Line
-	6300 5200 6500 5200
-Wire Wire Line
-	6500 5200 6500 4850
-Connection ~ 6500 4850
-Wire Wire Line
-	5850 5200 5850 4100
-Connection ~ 5850 4100
-Wire Wire Line
-	5600 4100 5600 4200
-Connection ~ 5600 4100
-Wire Wire Line
-	5600 3400 5600 3500
-Connection ~ 5600 3400
-Wire Wire Line
-	5600 2700 5600 2800
-Connection ~ 5600 2700
-Connection ~ 5150 3700
-Connection ~ 6650 4100
-Wire Wire Line
-	6900 4850 7250 4850
-Connection ~ 6650 3400
-Connection ~ 6650 2700
-Wire Wire Line
-	5600 3100 5600 3150
-Wire Wire Line
-	5600 3800 5600 3850
-Wire Wire Line
-	5600 4500 5600 4550
-Wire Wire Line
-	6650 3050 6650 3150
-Wire Wire Line
-	6650 4450 6650 4550
-Wire Wire Line
-	6650 3850 6650 3750
-Wire Wire Line
 	1300 2200 1300 2500
 Connection ~ 1300 2300
 Wire Wire Line
@@ -870,53 +495,7 @@ Wire Wire Line
 	2000 5000 1850 5000
 Wire Wire Line
 	2550 6700 2550 6900
-Wire Wire Line
-	7150 4800 7150 4850
-Connection ~ 7150 4850
-Wire Wire Line
-	7150 4050 7150 4100
-Connection ~ 7150 4100
-Wire Wire Line
-	7150 3350 7150 3400
-Connection ~ 7150 3400
-Wire Wire Line
-	7150 2650 7150 2700
-Connection ~ 7150 2700
-Wire Wire Line
-	5000 5450 5000 5350
-Text GLabel 5150 4650 1    50   UnSpc ~ 0
-+5V
-Text GLabel 4850 4650 1    50   UnSpc ~ 0
-IOREF
-$Comp
-L PWR_FLAG #FLG017
-U 1 1 538D4612
-P 5150 4750
-F 0 "#FLG017" H 5150 4845 30  0001 C CNN
-F 1 "PWR_FLAG" H 5150 4930 30  0000 C CNN
-F 2 "" H 5150 4750 60  0000 C CNN
-F 3 "" H 5150 4750 60  0000 C CNN
-	1    5150 4750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5150 4650 5150 4750
-$Comp
-L PWR_FLAG #FLG018
-U 1 1 538D481C
-P 4850 4750
-F 0 "#FLG018" H 4850 4845 30  0001 C CNN
-F 1 "PWR_FLAG" H 4850 4930 30  0000 C CNN
-F 2 "" H 4850 4750 60  0000 C CNN
-F 3 "" H 4850 4750 60  0000 C CNN
-	1    4850 4750
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4850 4750 4850 4650
-Wire Notes Line
-	3150 3350 3150 1850
-Text Notes 3200 1950 0    60   Italic 0
+Text Notes 3100 3350 0    60   Italic 0
 PWM
 Text Notes 3100 6250 0    60   Italic 0
 PWM
@@ -924,4 +503,34 @@ Text Notes 1300 6250 2    60   Italic 0
 PWM
 Text Notes 1300 6350 2    60   Italic 0
 PWM
+Text Notes 7650 2850 0    60   Italic 0
+Marlin special functions I/O usage:\n- PWM - for fans and LEDs\n- Timers for servos - blocks PWM on this timer\n- PWM for motor current control\n- Timer0, Timer1 for internal use\n\n- SPI for SD card
+Text Notes 3100 3250 0    60   Italic 0
+PWM
+Text Notes 3100 3050 0    60   Italic 0
+PWM
+Text Notes 3100 3150 0    60   Italic 0
+PWM?
+Text Notes 3100 2950 0    60   Italic 0
+PWM
+Text Notes 3100 2850 0    60   Italic 0
+PWM
+Text Notes 3100 2450 0    60   Italic 0
+PWM
+Text Notes 3100 2350 0    60   Italic 0
+PWM
+Text Notes 3100 2250 0    60   Italic 0
+PWM
+Text Notes 3100 2150 0    60   Italic 0
+PWM?
+Text Notes 3100 2050 0    60   Italic 0
+PWM?
+Text Notes 3100 1950 0    60   Italic 0
+PWM?
+$Sheet
+S 5400 4950 1150 600 
+U 539431DE
+F0 "Power" 60
+F1 "power.sch" 60
+$EndSheet
 $EndSCHEMATC

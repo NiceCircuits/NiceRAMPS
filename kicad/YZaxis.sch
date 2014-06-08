@@ -18,7 +18,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title "Ramps plus"
 Date "16 apr 2014"
 Rev "1.0"
@@ -1163,4 +1163,6 @@ Text Label 4900 2100 0    60   ~ 0
 OC5
 NoConn ~ 8400 1450
 NoConn ~ 8400 1000
+Text Notes 4800 4700 0    60   Italic 0
+OC outputs up to 1A
 $EndSCHEMATC

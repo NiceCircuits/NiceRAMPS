@@ -18,7 +18,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "Ramps plus"
 Date "16 apr 2014"
 Rev "1.0"
@@ -404,7 +404,7 @@ XmotorA
 Text Label 3550 1700 2    60   ~ 0
 XmotorC
 Text GLabel 4000 5300 0    50   Input ~ 0
-D11
+D7
 Text GLabel 4000 6650 0    50   Input ~ 0
 D6
 Text GLabel 5300 5300 0    50   Input ~ 0
@@ -1405,4 +1405,6 @@ Wire Wire Line
 	1800 1700 1800 1800
 Wire Wire Line
 	1900 1700 1800 1700
+Text Notes 4700 7050 0    60   Italic 0
+OC outputs up to 1A
 $EndSCHEMATC
