@@ -814,24 +814,8 @@ F 3 "~" H 9850 5600 30  0000 C CNN
 $EndComp
 Text GLabel 10100 5600 2    60   UnSpc ~ 0
 IOREF
-Text GLabel 1700 800  1    60   UnSpc ~ 0
-+5V
-Text GLabel 3100 1050 1    60   UnSpc ~ 0
-+5V
 Text GLabel 1100 950  1    60   UnSpc ~ 0
-+5V
-Text GLabel 3100 3500 1    60   UnSpc ~ 0
-+5V
-Text GLabel 1100 3400 1    60   UnSpc ~ 0
-+5V
-Text GLabel 1700 3250 1    60   UnSpc ~ 0
-+5V
-Text GLabel 1700 5650 1    60   UnSpc ~ 0
-+5V
-Text GLabel 1100 5800 1    60   UnSpc ~ 0
-+5V
-Text GLabel 3100 5900 1    60   UnSpc ~ 0
-+5V
+IOREF
 $Comp
 L CD4504BPW U1
 U 1 1 538D6475
@@ -1407,4 +1391,20 @@ Wire Wire Line
 	1900 1700 1800 1700
 Text Notes 4700 7050 0    60   Italic 0
 OC outputs up to 1A
+Text GLabel 1700 800  1    60   UnSpc ~ 0
+IOREF
+Text GLabel 3100 1050 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 3100 3500 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 1700 3250 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 1100 3400 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 1100 5800 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 1700 5650 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 3100 5900 1    60   UnSpc ~ 0
+IOREF
 $EndSCHEMATC

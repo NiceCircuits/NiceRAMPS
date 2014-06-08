@@ -940,18 +940,8 @@ F 3 "" H 5650 1700 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8400 1900
-Text GLabel 3550 1450 1    60   UnSpc ~ 0
-+5V
-Text GLabel 2150 1200 1    60   UnSpc ~ 0
-+5V
 Text GLabel 1550 1350 1    60   UnSpc ~ 0
-+5V
-Text GLabel 3400 5100 1    60   UnSpc ~ 0
-+5V
-Text GLabel 2000 4650 1    60   UnSpc ~ 0
-+5V
-Text GLabel 1400 5000 1    60   UnSpc ~ 0
-+5V
+IOREF
 Text GLabel 6550 1000 1    60   UnSpc ~ 0
 +5V
 Text GLabel 4750 1000 1    60   UnSpc ~ 0
@@ -1165,4 +1155,14 @@ NoConn ~ 8400 1450
 NoConn ~ 8400 1000
 Text Notes 4800 4700 0    60   Italic 0
 OC outputs up to 1A
+Text GLabel 2150 1200 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 3550 1450 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 1400 5000 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 2000 4650 1    60   UnSpc ~ 0
+IOREF
+Text GLabel 3400 5100 1    60   UnSpc ~ 0
+IOREF
 $EndSCHEMATC
