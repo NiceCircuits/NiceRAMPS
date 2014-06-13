@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:/RAMPS plus/kicad/RAMPS_plus.sch")
-    (date "13/06/2014 19:22:40")
+    (date "13/06/2014 23:26:47")
     (tool "Eeschema (2014-06-10 BZR 4935)-product"))
   (components
     (comp (ref CON2)
@@ -46,6 +46,11 @@
       (libsource (lib pnPins) (part CON18x2))
       (sheetpath (names /) (tstamps /))
       (tstamp 536FA4DD))
+    (comp (ref MECH1)
+      (value ArduinoMegaShield)
+      (libsource (lib pnModules) (part ArduinoMegaShield))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 539B6D78))
     (comp (ref R3)
       (value 10R)
       (footprint 0603)
@@ -510,6 +515,7 @@
       (tstamp 534EE343))
     (comp (ref SW1)
       (value SW_PUSH)
+      (footprint PIN2)
       (libsource (lib RAMPS_plus-cache) (part SW_PUSH))
       (sheetpath (names /Panel/) (tstamps /534EE32B/))
       (tstamp 536AA4F9))
@@ -1072,7 +1078,11 @@
         (field (name Value) SW_PUSH))
       (pins
         (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive)))))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib pnModules) (part ArduinoMegaShield)
+      (fields
+        (field (name Reference) MECH)
+        (field (name Value) ArduinoMegaShield))))
   (libraries
     (library (logical pnLogic)
       (uri D:\Lib\kicad\pnLogic.lib))

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 13/06/2014 22:20:20
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 13/06/2014 23:26:58
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -544,6 +544,13 @@ TimeStamp = /534EC4C7/539A1C31;
 Reference = JP5;
 ValeurCmp = Jumper3;
 IdModule  = pnConnector:PIN3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /539B6D78;
+Reference = MECH1;
+ValeurCmp = ArduinoMegaShield;
+IdModule  = pnModules:ArduinoMegaShield;
 EndCmp
 
 BeginCmp
