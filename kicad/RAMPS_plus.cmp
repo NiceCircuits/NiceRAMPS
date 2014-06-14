@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 19:21:12
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 21:38:52
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -159,6 +159,48 @@ TimeStamp = /539431DE/5394BA02;
 Reference = C23;
 ValeurCmp = 4u7/10V;
 IdModule  = pnRLC:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/539D12F3;
+Reference = C24;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/539D0ECF;
+Reference = C25;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EC4C7/539D1A87;
+Reference = C26;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539431DE/539D034B;
+Reference = C27;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539431DE/539CFD0F;
+Reference = C28;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /539431DE/539CF832;
+Reference = C29;
+ValeurCmp = 100n/50V;
+IdModule  = pnRLC:0603;
 EndCmp
 
 BeginCmp
@@ -407,31 +449,31 @@ IdModule  = pnSemiconductor:0805D;
 EndCmp
 
 BeginCmp
-TimeStamp = /534454B0/539239AC;
+TimeStamp = /534454B0/539CC2B2;
 Reference = D8;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /534454B0/53923925;
+TimeStamp = /534454B0/539CC776;
 Reference = D9;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /534454B0/53923A40;
+TimeStamp = /534454B0/539CC6A9;
 Reference = D10;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /534454B0/539234D0;
+TimeStamp = /534454B0/539CC707;
 Reference = D11;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
@@ -442,17 +484,17 @@ IdModule  = pnSemiconductor:0805D;
 EndCmp
 
 BeginCmp
-TimeStamp = /534EC4C7/53924625;
+TimeStamp = /534EC4C7/539CCE24;
 Reference = D13;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /534EC4C7/5392462F;
+TimeStamp = /534EC4C7/539CD76F;
 Reference = D14;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
@@ -463,38 +505,38 @@ IdModule  = pnSemiconductor:0805D;
 EndCmp
 
 BeginCmp
-TimeStamp = /539431DE/539B202A;
+TimeStamp = /539431DE/539CBD53;
 Reference = D16;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /539431DE/539B1FBA;
+TimeStamp = /539431DE/539CBCF5;
 Reference = D17;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /539431DE/539B1F63;
+TimeStamp = /539431DE/539CBDBC;
 Reference = D18;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /539431DE/53949E2B;
+TimeStamp = /539431DE/539CBBDC;
 Reference = D19;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
-TimeStamp = /539431DE/539B228F;
+TimeStamp = /539431DE/539CBE38;
 Reference = D20;
-ValeurCmp = SS110B;
-IdModule  = pnSemiconductor:SMB;
+ValeurCmp = PMEG3010EJ;
+IdModule  = pnSemiconductor:SOD323F;
 EndCmp
 
 BeginCmp
