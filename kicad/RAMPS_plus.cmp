@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 21:38:52
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 22:43:18
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -312,7 +312,7 @@ BeginCmp
 TimeStamp = /534EC4C7/537E808F;
 Reference = CON16;
 ValeurCmp = YZ;
-IdModule  = pnIDC:IDC34_a;
+IdModule  = pnIDC:IDC28_a;
 EndCmp
 
 BeginCmp
@@ -934,7 +934,7 @@ EndCmp
 BeginCmp
 TimeStamp = /534EE32B/536AA4F9;
 Reference = SW1;
-ValeurCmp = SW_PUSH;
+ValeurCmp = RESET;
 IdModule  = pnPinheaders:PIN2_a;
 EndCmp
 
