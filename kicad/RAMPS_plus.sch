@@ -534,10 +534,10 @@ F0 "Power" 50
 F1 "power.sch" 50
 $EndSheet
 $Comp
-L ArduinoMegaShield MECH?
+L ArduinoMegaShield MECH1
 U 1 1 539B6D78
 P 2200 7200
-F 0 "MECH?" H 2150 7300 60  0000 C CNN
+F 0 "MECH1" H 2150 7300 60  0000 C CNN
 F 1 "ArduinoMegaShield" H 2150 7100 60  0000 C CNN
 F 2 "" H 2100 7200 60  0000 C CNN
 F 3 "" H 2100 7200 60  0000 C CNN

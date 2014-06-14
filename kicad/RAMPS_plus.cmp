@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 13/06/2014 23:26:58
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 11:41:06
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -165,161 +165,161 @@ BeginCmp
 TimeStamp = /536FA4BF;
 Reference = CON1;
 ValeurCmp = CON10;
-IdModule  = pnConnector:PIN10;
+IdModule  = pnPinheaders:PIN10_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA476;
 Reference = CON2;
 ValeurCmp = CON8;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA48A;
 Reference = CON3;
 ValeurCmp = CON8;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA4B2;
 Reference = CON4;
 ValeurCmp = CON8;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EE32B/53946F92;
 Reference = CON5;
 ValeurCmp = AUX;
-IdModule  = pnConnector:IDC10;
+IdModule  = pnIDC:IDC10_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA49C;
 Reference = CON6;
 ValeurCmp = CON8;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA4A7;
 Reference = CON7;
 ValeurCmp = CON8;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /536FA4DD;
 Reference = CON8;
 ValeurCmp = CON18x2;
-IdModule  = pnConnector:PIN18x2reverse;
+IdModule  = pnPinheaders:PIN18x2reverse_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/536FBAD9;
 Reference = CON9;
 ValeurCmp = Carriage;
-IdModule  = pnConnector:IDC34;
+IdModule  = pnIDC:IDC34_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/536FDF66;
 Reference = CON10;
 ValeurCmp = Stepstick_Left_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/536FDF7A;
 Reference = CON11;
 ValeurCmp = Stepstick_Right_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A104C;
 Reference = CON12;
 ValeurCmp = Stepstick_Left_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A1045;
 Reference = CON13;
 ValeurCmp = Stepstick_Right_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A14AF;
 Reference = CON14;
 ValeurCmp = Stepstick_Left_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A14A8;
 Reference = CON15;
 ValeurCmp = Stepstick_Right_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/537E808F;
 Reference = CON16;
 ValeurCmp = YZ;
-IdModule  = pnConnector:IDC34;
+IdModule  = pnIDC:IDC34_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1AF3;
 Reference = CON17;
 ValeurCmp = Stepstick_Left_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1AEC;
 Reference = CON18;
 ValeurCmp = Stepstick_Right_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1C3F;
 Reference = CON19;
 ValeurCmp = Stepstick_Left_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1C38;
 Reference = CON20;
 ValeurCmp = Stepstick_Right_Connector;
-IdModule  = pnConnector:PIN8;
+IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EE32B/538CD96D;
 Reference = CON21;
 ValeurCmp = Panel1;
-IdModule  = pnConnector:IDC10;
+IdModule  = pnIDC:IDC10_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EE32B/538CD9E6;
 Reference = CON22;
 ValeurCmp = Panel2;
-IdModule  = pnConnector:IDC10;
+IdModule  = pnIDC:IDC10_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /539431DE/53947AC8;
 Reference = CON23;
 ValeurCmp = PS-ON;
-IdModule  = pnConnector:PIN4;
+IdModule  = pnPinheaders:PIN4_a;
 EndCmp
 
 BeginCmp
@@ -333,14 +333,14 @@ BeginCmp
 TimeStamp = /539431DE/53948900;
 Reference = CON25;
 ValeurCmp = FAN;
-IdModule  = pnConnector:PIN3;
+IdModule  = pnPinheaders:PIN3_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /539431DE/53949C41;
 Reference = CON26;
 ValeurCmp = CON5x2;
-IdModule  = pnConnector:IDC10;
+IdModule  = pnIDC:IDC10_a;
 EndCmp
 
 BeginCmp
@@ -515,35 +515,35 @@ BeginCmp
 TimeStamp = /534454B0/536FDC2E;
 Reference = JP1;
 ValeurCmp = Jumper3;
-IdModule  = pnConnector:PIN3x2;
+IdModule  = pnPinheaders:PIN3x2_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A103E;
 Reference = JP2;
 ValeurCmp = Jumper3;
-IdModule  = pnConnector:PIN3x2;
+IdModule  = pnPinheaders:PIN3x2_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A14A1;
 Reference = JP3;
 ValeurCmp = Jumper3;
-IdModule  = pnConnector:PIN3x2;
+IdModule  = pnPinheaders:PIN3x2_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1AE5;
 Reference = JP4;
 ValeurCmp = Jumper3;
-IdModule  = pnConnector:PIN3x2;
+IdModule  = pnPinheaders:PIN3x2_a;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1C31;
 Reference = JP5;
 ValeurCmp = Jumper3;
-IdModule  = pnConnector:PIN3x2;
+IdModule  = pnPinheaders:PIN3x2_a;
 EndCmp
 
 BeginCmp
@@ -551,6 +551,41 @@ TimeStamp = /539B6D78;
 Reference = MECH1;
 ValeurCmp = ArduinoMegaShield;
 IdModule  = pnModules:ArduinoMegaShield;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/539C2138;
+Reference = MECH2;
+ValeurCmp = stepstickFootprint;
+IdModule  = pnModules:stepstickFootprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/539C21AB;
+Reference = MECH3;
+ValeurCmp = stepstickFootprint;
+IdModule  = pnModules:stepstickFootprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /534454B0/539C21C6;
+Reference = MECH4;
+ValeurCmp = stepstickFootprint;
+IdModule  = pnModules:stepstickFootprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EC4C7/539C22B1;
+Reference = MECH5;
+ValeurCmp = stepstickFootprint;
+IdModule  = pnModules:stepstickFootprint;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EC4C7/539C26B8;
+Reference = MECH6;
+ValeurCmp = stepstickFootprint;
+IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
 BeginCmp
@@ -844,7 +879,7 @@ BeginCmp
 TimeStamp = /534EE32B/536AA4F9;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
-IdModule  = pnConnector:PIN2;
+IdModule  = pnPinheaders:PIN2_a;
 EndCmp
 
 BeginCmp

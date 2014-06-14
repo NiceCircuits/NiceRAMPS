@@ -961,7 +961,7 @@ F 1 "Jumper3" H 1400 1300 60  0001 C CNN
 F 2 "PIN3x2" H 1400 1300 40  0000 C CNN
 F 3 "" H 1250 2100 60  0001 L CNN
 	1    1400 1500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Stepstick_Right_Connector CON11
@@ -1136,7 +1136,7 @@ F 1 "Jumper3" H 1400 3750 60  0001 C CNN
 F 2 "PIN3x2" H 1400 3750 40  0000 C CNN
 F 3 "" H 1250 4550 60  0001 L CNN
 	1    1400 3950
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Stepstick_Right_Connector CON13
@@ -1311,7 +1311,7 @@ F 1 "Jumper3" H 1400 6150 60  0001 C CNN
 F 2 "PIN3x2" H 1400 6150 40  0000 C CNN
 F 3 "" H 1250 6950 60  0001 L CNN
 	1    1400 6350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Stepstick_Right_Connector CON15
@@ -1407,4 +1407,37 @@ F 3 "~" H 2700 7350 60  0000 C CNN
 $EndComp
 Text Notes 1950 5950 0    70   Italic 0
 Stepper Driver
+$Comp
+L stepstickFootprint MECH2
+U 1 1 539C2138
+P 2200 2300
+F 0 "MECH2" H 2200 2300 60  0000 C CNN
+F 1 "X" H 2200 2200 60  0000 C CNN
+F 2 "" H 2100 2300 60  0000 C CNN
+F 3 "" H 2100 2300 60  0000 C CNN
+	1    2200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L stepstickFootprint MECH3
+U 1 1 539C21AB
+P 2200 4750
+F 0 "MECH3" H 2200 4750 60  0000 C CNN
+F 1 "E1" H 2200 4650 60  0000 C CNN
+F 2 "" H 2100 4750 60  0000 C CNN
+F 3 "" H 2100 4750 60  0000 C CNN
+	1    2200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L stepstickFootprint MECH4
+U 1 1 539C21C6
+P 2200 7150
+F 0 "MECH4" H 2200 7150 60  0000 C CNN
+F 1 "E2" H 2200 7050 60  0000 C CNN
+F 2 "" H 2100 7150 60  0000 C CNN
+F 3 "" H 2100 7150 60  0000 C CNN
+	1    2200 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
