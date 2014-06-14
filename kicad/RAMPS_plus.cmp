@@ -515,35 +515,35 @@ BeginCmp
 TimeStamp = /534454B0/536FDC2E;
 Reference = JP1;
 ValeurCmp = Jumper3;
-IdModule  = pnPinheaders:PIN3x2_a;
+IdModule  = pnPinheaders:PIN3x2SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A103E;
 Reference = JP2;
 ValeurCmp = Jumper3;
-IdModule  = pnPinheaders:PIN3x2_a;
+IdModule  = pnPinheaders:PIN3x2SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539A14A1;
 Reference = JP3;
 ValeurCmp = Jumper3;
-IdModule  = pnPinheaders:PIN3x2_a;
+IdModule  = pnPinheaders:PIN3x2SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1AE5;
 Reference = JP4;
 ValeurCmp = Jumper3;
-IdModule  = pnPinheaders:PIN3x2_a;
+IdModule  = pnPinheaders:PIN3x2SMD;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539A1C31;
 Reference = JP5;
 ValeurCmp = Jumper3;
-IdModule  = pnPinheaders:PIN3x2_a;
+IdModule  = pnPinheaders:PIN3x2SMD;
 EndCmp
 
 BeginCmp
