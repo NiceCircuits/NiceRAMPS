@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 11:41:06
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 19:21:12
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -339,8 +339,22 @@ EndCmp
 BeginCmp
 TimeStamp = /539431DE/53949C41;
 Reference = CON26;
-ValeurCmp = CON5x2;
+ValeurCmp = Chamber;
 IdModule  = pnIDC:IDC10_a;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EC4C7/539C8A5D;
+Reference = CON27;
+ValeurCmp = BED;
+IdModule  = pnConnector:phoenix2;
+EndCmp
+
+BeginCmp
+TimeStamp = /534EC4C7/539C896C;
+Reference = CON28;
+ValeurCmp = BED_Th;
+IdModule  = pnPinheaders:PIN2;
 EndCmp
 
 BeginCmp
@@ -556,35 +570,35 @@ EndCmp
 BeginCmp
 TimeStamp = /534454B0/539C2138;
 Reference = MECH2;
-ValeurCmp = stepstickFootprint;
+ValeurCmp = X;
 IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539C21AB;
 Reference = MECH3;
-ValeurCmp = stepstickFootprint;
+ValeurCmp = E1;
 IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
 BeginCmp
 TimeStamp = /534454B0/539C21C6;
 Reference = MECH4;
-ValeurCmp = stepstickFootprint;
+ValeurCmp = E2;
 IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539C22B1;
 Reference = MECH5;
-ValeurCmp = stepstickFootprint;
+ValeurCmp = Z;
 IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
 BeginCmp
 TimeStamp = /534EC4C7/539C26B8;
 Reference = MECH6;
-ValeurCmp = stepstickFootprint;
+ValeurCmp = Y;
 IdModule  = pnModules:stepstickFootprint;
 EndCmp
 
