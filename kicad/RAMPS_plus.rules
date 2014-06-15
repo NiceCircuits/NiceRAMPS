@@ -28,7 +28,7 @@
   (rule
     (width 152.4)
     (clear 203.4)
-    (clear 0.0 (type smd_to_turn_gap))
+    (clear 76.2 (type smd_to_turn_gap))
     (clear 50.8 (type smd_smd))
   )
   (padstack "Via[0-1]_700:300_um"
@@ -40,6 +40,15 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_1000:300_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
   (padstack "Via[0-1]_1000:500_um"
     (shape
       (circle F.Cu 1000.0 0.0 0.0)
@@ -48,6 +57,12 @@
       (circle B.Cu 1000.0 0.0 0.0)
     )
     (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:300_um" "Via[0-1]_1000:300_um" default
+  )
+  (via 
+    "Via[0-1]_1000:300_um-kicad_default" "Via[0-1]_1000:300_um" "kicad_default"
   )
   (via 
     "Via[0-1]_1000:500_um" "Via[0-1]_1000:500_um" default
