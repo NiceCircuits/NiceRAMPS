@@ -307,9 +307,9 @@ F 3 "" H 1850 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1850 4500 0    50   UnSpc ~ 0
-5V
++5V
 Text GLabel 2550 4500 2    50   UnSpc ~ 0
-5V
++5V
 NoConn ~ 1750 1200
 NoConn ~ 2650 1000
 NoConn ~ 2650 1100

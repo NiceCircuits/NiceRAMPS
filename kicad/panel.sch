@@ -113,13 +113,13 @@ F 3 "" H 5850 2650 40  0000 C CNN
 	1    5850 2650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 3050 0    50   BiDi ~ 0
+Text GLabel 2350 3750 0    50   BiDi ~ 0
 D17
 Text GLabel 2350 3550 0    50   BiDi ~ 0
 D23
 Text GLabel 2350 3350 0    50   BiDi ~ 0
 D27
-Text GLabel 2350 3150 0    50   BiDi ~ 0
+Text GLabel 2350 3650 0    50   BiDi ~ 0
 D16
 Text GLabel 2350 3450 0    50   BiDi ~ 0
 D25
@@ -281,13 +281,11 @@ F 3 "" H 2400 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 3650 2400 4350
-Wire Wire Line
 	2400 4150 2500 4150
 Wire Wire Line
-	2350 3050 2500 3050
+	2350 3750 2500 3750
 Wire Wire Line
-	2350 3150 2500 3150
+	2350 3650 2500 3650
 Wire Wire Line
 	2350 3550 2500 3550
 Wire Wire Line
@@ -308,22 +306,22 @@ Text Label 5300 1800 0    50   ~ 0
 LCD_D5
 Text Label 5300 1700 0    50   ~ 0
 LCD_D7
-Text Label 3600 3050 2    50   ~ 0
+Text Label 3600 3750 2    50   ~ 0
 LCD_EN
 Text Label 3600 3550 2    50   ~ 0
 LCD_D4
 Text Label 3600 3350 2    50   ~ 0
 LCD_D6
-Text Label 3600 3150 2    50   ~ 0
+Text Label 3600 3650 2    50   ~ 0
 LCD_RS
 Text Label 3600 3450 2    50   ~ 0
 LCD_D5
 Text Label 3600 3250 2    50   ~ 0
 LCD_D7
 Wire Wire Line
-	3200 3050 3600 3050
+	3200 3750 3600 3750
 Wire Wire Line
-	3600 3150 3200 3150
+	3600 3650 3200 3650
 Wire Wire Line
 	3200 3550 3600 3550
 Wire Wire Line
@@ -332,14 +330,8 @@ Wire Wire Line
 	3200 3350 3600 3350
 Wire Wire Line
 	3600 3250 3200 3250
-Wire Wire Line
-	2500 3650 2400 3650
-Connection ~ 2400 4150
-Wire Wire Line
-	2500 3750 2400 3750
-Connection ~ 2400 3750
-NoConn ~ 3200 3650
-NoConn ~ 3200 3750
+NoConn ~ 3200 3050
+NoConn ~ 3200 3150
 $Comp
 L CON5x2 CON5
 U 1 1 53946F92
@@ -398,4 +390,15 @@ F 3 "" H 6150 4200 60  0000 C CNN
 	1    6150 4200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2400 4150 2400 4350
+Text GLabel 2300 3050 0    60   UnSpc ~ 0
++5V
+Wire Wire Line
+	2300 3050 2500 3050
+Wire Wire Line
+	2500 3150 2400 3150
+Wire Wire Line
+	2400 3150 2400 3050
+Connection ~ 2400 3050
 $EndSCHEMATC
