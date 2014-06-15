@@ -40,6 +40,21 @@
     )
     (attach off)
   )
+  (padstack "Via[0-1]_1000:500_um"
+    (shape
+      (circle F.Cu 1000.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 1000.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_1000:500_um" "Via[0-1]_1000:500_um" default
+  )
+  (via 
+    "Via[0-1]_1000:500_um-kicad_default" "Via[0-1]_1000:500_um" "kicad_default"
+  )
   (via 
     "Via[0-1]_700:300_um" "Via[0-1]_700:300_um" default
   )
@@ -80,8 +95,8 @@
     "/YZ axis/YmotorB" "/YZ axis/YmotorD" "/YZ axis/Zmax" "/YZ axis/Ymax" "/YZ axis/ZmotorB" "/YZ axis/ZmotorD" "Net-(CON17-Pad2)" "Net-(CON17-Pad3)"
     "Net-(CON17-Pad4)" "Net-(CON17-Pad5)" "Net-(CON19-Pad2)" "Net-(CON19-Pad3)" "Net-(CON19-Pad4)" "Net-(CON19-Pad5)" "/Panel/LCD_EN" "/Panel/LCD_D4"
     "/Panel/LCD_D6" "/Panel/LCD_RS" "/Panel/LCD_D5" "/Panel/LCD_D7" "/Power/PS-ON" "/Power/PS-FAN" "Net-(CON25-Pad3)" "/Power/Chamber-heater"
-    "/Power/Chamber-fan" Vbed "Net-(D4-Pad1)" "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D12-Pad1)" "Net-(D15-Pad1)" "Net-(Q1-Pad1)"
-    "Net-(Q2-Pad1)" "Net-(Q5-Pad1)" "Net-(R3-Pad1)" "Net-(R8-Pad1)" "Net-(R21-Pad1)" "/YZ axis/BED" A3 A4
+    "/Power/Chamber-fan" Vbed "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D12-Pad1)" "Net-(D15-Pad1)" "Net-(Q1-Pad1)" "Net-(Q2-Pad1)"
+    "Net-(Q5-Pad1)" "Net-(R3-Pad1)" "Net-(R8-Pad1)" "Net-(R21-Pad1)" "/YZ axis/BED" A3 A4
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
