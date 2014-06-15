@@ -351,15 +351,15 @@ F 3 "" H 5850 3900 40  0000 C CNN
 	1    5850 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 5450 3700 0    50   Output ~ 0
+Text GLabel 5450 4100 0    50   Output ~ 0
 D32
-Text GLabel 5450 3800 0    50   Output ~ 0
+Text GLabel 5450 4000 0    50   Output ~ 0
 D39
 Text GLabel 5450 3900 0    50   Output ~ 0
 D40
-Text GLabel 5450 4000 0    50   Output ~ 0
+Text GLabel 5450 3700 0    50   Output ~ 0
 D42
-Text GLabel 5450 4100 0    50   Output ~ 0
+Text GLabel 5450 3800 0    50   Output ~ 0
 D43
 Wire Wire Line
 	5450 3700 5650 3700
