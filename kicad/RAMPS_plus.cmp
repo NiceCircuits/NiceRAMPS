@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 14/06/2014 22:43:18
+Cmp-Mod V01 Created by Cvpcb (2014-06-10 BZR 4935)-product   date = 15/06/2014 13:48:03
 
 BeginCmp
 TimeStamp = /539431DE/5394383B;
@@ -309,9 +309,9 @@ IdModule  = pnPinheaders:PIN8_a;
 EndCmp
 
 BeginCmp
-TimeStamp = /534EC4C7/537E808F;
+TimeStamp = /534EC4C7/539D4BA5;
 Reference = CON16;
-ValeurCmp = YZ;
+ValeurCmp = CON14x2;
 IdModule  = pnIDC:IDC28_a;
 EndCmp
 
@@ -556,13 +556,6 @@ EndCmp
 BeginCmp
 TimeStamp = /539431DE/53943896;
 Reference = F3;
-ValeurCmp = MINI_Blade_Fuse_Holder;
-IdModule  = pnConnector:Littlefuse_01530008;
-EndCmp
-
-BeginCmp
-TimeStamp = /539431DE/5394389D;
-Reference = F4;
 ValeurCmp = MINI_Blade_Fuse_Holder;
 IdModule  = pnConnector:Littlefuse_01530008;
 EndCmp
