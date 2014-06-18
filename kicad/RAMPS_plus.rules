@@ -40,7 +40,7 @@
     )
     (attach off)
   )
-  (padstack "Via[0-1]_1000:500_um"
+  (padstack "Via[0-1]_1000:300_um"
     (shape
       (circle F.Cu 1000.0 0.0 0.0)
     )
@@ -49,7 +49,7 @@
     )
     (attach off)
   )
-  (padstack "Via[0-1]_1000:300_um"
+  (padstack "Via[0-1]_1000:500_um"
     (shape
       (circle F.Cu 1000.0 0.0 0.0)
     )
