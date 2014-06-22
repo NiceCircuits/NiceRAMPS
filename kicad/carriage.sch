@@ -29,11 +29,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 1000 3650 0    50   Input ~ 0
-D46
+D28
 Text GLabel 1000 4350 0    50   Input ~ 0
-D38
+D30
 Text GLabel 1000 4450 0    50   Input ~ 0
-D36
+D34
 Text GLabel 1000 1200 0    50   Input ~ 0
 A7
 Text GLabel 1000 1900 0    50   Input ~ 0
@@ -41,11 +41,11 @@ A8
 Text GLabel 1000 2000 0    50   Input ~ 0
 A12
 Text GLabel 1000 6050 0    50   Input ~ 0
-D34
+D36
 Text GLabel 1000 6750 0    50   Input ~ 0
-D30
+D38
 Text GLabel 1000 6850 0    50   Input ~ 0
-D28
+D46
 $Comp
 L GND #PWR04
 U 1 1 534C44E8
