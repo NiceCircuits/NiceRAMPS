@@ -29,11 +29,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 1300 3950 0    50   Input ~ 0
-A2
+A0
 Text GLabel 1300 4650 0    50   Input ~ 0
-A6
+A1
 Text GLabel 1300 4750 0    50   Input ~ 0
-A7
+A2
 $Comp
 L GND #PWR029
 U 1 1 534EC7A3
@@ -256,11 +256,11 @@ F 3 "" H 2450 7050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1300 1600 0    50   Input ~ 0
-A8
+A4
 Text GLabel 1300 2300 0    50   Input ~ 0
-D46
+A5
 Text GLabel 1300 2400 0    50   Input ~ 0
-D48
+A6
 Text Label 3850 1900 2    60   ~ 0
 ZmotorA
 Text Label 3850 2000 2    60   ~ 0
@@ -298,9 +298,9 @@ Ymin
 Text Label 8550 5700 2    60   ~ 0
 Ymax
 Text GLabel 7750 4900 0    50   Input ~ 0
-D14
+D2
 Text GLabel 7750 5700 0    50   Input ~ 0
-D15
+D25
 $Comp
 L R R24
 U 1 1 537E6A3D
@@ -390,9 +390,9 @@ Zmin
 Text Label 10200 5750 2    60   ~ 0
 Zmax
 Text GLabel 9400 4950 0    50   Input ~ 0
-D18
+D14
 Text GLabel 9400 5750 0    50   Input ~ 0
-D19
+D3
 $Comp
 L R R25
 U 1 1 537E6A6F

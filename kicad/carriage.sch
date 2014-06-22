@@ -29,23 +29,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 1000 3650 0    50   Input ~ 0
-D24
+D46
 Text GLabel 1000 4350 0    50   Input ~ 0
-D26
-Text GLabel 1000 4450 0    50   Input ~ 0
-D28
-Text GLabel 1000 1200 0    50   Input ~ 0
 D38
-Text GLabel 1000 1900 0    50   Input ~ 0
-A0
-Text GLabel 1000 2000 0    50   Input ~ 0
-A1
-Text GLabel 1000 6050 0    50   Input ~ 0
-D30
-Text GLabel 1000 6750 0    50   Input ~ 0
+Text GLabel 1000 4450 0    50   Input ~ 0
 D36
-Text GLabel 1000 6850 0    50   Input ~ 0
+Text GLabel 1000 1200 0    50   Input ~ 0
+A7
+Text GLabel 1000 1900 0    50   Input ~ 0
+A8
+Text GLabel 1000 2000 0    50   Input ~ 0
+A12
+Text GLabel 1000 6050 0    50   Input ~ 0
 D34
+Text GLabel 1000 6750 0    50   Input ~ 0
+D30
+Text GLabel 1000 6850 0    50   Input ~ 0
+D28
 $Comp
 L GND #PWR04
 U 1 1 534C44E8
@@ -349,9 +349,9 @@ F 3 "~" H 6050 1300 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 Text GLabel 7650 4850 0    50   Input ~ 0
-D2
+D21
 Text GLabel 7650 5800 0    50   Input ~ 0
-D3
+D20
 $Comp
 L GND #PWR011
 U 1 1 536FECC5

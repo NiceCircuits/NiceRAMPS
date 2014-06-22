@@ -385,7 +385,7 @@ F 3 "" H 4850 2900 60  0000 C CNN
 $EndComp
 Text GLabel 4750 1900 0    60   UnSpc ~ 0
 +12V
-Text GLabel 4350 2700 0    50   Input Italic 0
+Text GLabel 4350 2700 0    50   Input ~ 0
 D12
 Wire Wire Line
 	5750 2250 5900 2250
@@ -523,7 +523,7 @@ Wire Wire Line
 Connection ~ 4850 3600
 Wire Wire Line
 	4650 3950 4350 3950
-Text GLabel 4350 3950 0    50   Input Italic 0
+Text GLabel 4350 3950 0    50   Input ~ 0
 D11
 Text Notes 5050 4150 0    60   Italic 0
 Power supply fan
@@ -573,7 +573,7 @@ Wire Wire Line
 	4150 6300 4150 6350
 Wire Wire Line
 	3950 6200 3550 6200
-Text GLabel 3550 6200 0    50   Input Italic 0
+Text GLabel 3550 6200 0    50   Input ~ 0
 D47
 $Comp
 L GND #PWR077
@@ -684,8 +684,8 @@ F 3 "" H 7550 1800 60  0000 C CNN
 $EndComp
 Text GLabel 7100 800  0    60   UnSpc ~ 0
 +12V
-Text GLabel 7050 1600 0    50   Input Italic 0
-A3
+Text GLabel 7050 1600 0    50   Input ~ 0
+D24
 Wire Wire Line
 	7550 1200 7550 1300
 Wire Wire Line
@@ -713,8 +713,8 @@ Wire Wire Line
 Connection ~ 7550 2500
 Wire Wire Line
 	7350 2850 7050 2850
-Text GLabel 7050 2850 0    50   Input Italic 0
-A4
+Text GLabel 7050 2850 0    50   Input ~ 0
+D26
 Text Notes 7750 3050 0    60   Italic 0
 Power supply fan
 Text Label 7800 1250 0    50   Italic 0
