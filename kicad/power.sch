@@ -796,7 +796,7 @@ F 3 "~" H 7200 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7100 3950 0    50   Input ~ 0
-A9
+A11
 Text Label 8150 3950 2    60   ~ 0
 ThermC1
 Text GLabel 7650 3750 2    60   UnSpc ~ 0
@@ -846,7 +846,7 @@ F 3 "~" H 9050 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8950 3950 0    50   Input ~ 0
-A10
+A13
 Text Label 10000 3950 2    60   ~ 0
 ThermC2
 Text GLabel 9500 3750 2    60   UnSpc ~ 0
@@ -896,7 +896,7 @@ F 3 "~" H 9050 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8950 2700 0    50   Input ~ 0
-A11
+A9
 Text Label 10000 2700 2    60   ~ 0
 ThermC3
 Text GLabel 9500 2500 2    60   UnSpc ~ 0

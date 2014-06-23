@@ -22,13 +22,13 @@
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.5)
+      (against_preferred_direction_trace_costs 1.6)
     )
   )
   (rule
     (width 152.4)
     (clear 203.4)
-    (clear 0.0 (type smd_to_turn_gap))
+    (clear 76.2 (type smd_to_turn_gap))
     (clear 50.8 (type smd_smd))
   )
   (padstack "Via[0-1]_700:300_um"
@@ -67,9 +67,6 @@
   (via_rule
     "kicad_default" "Via[0-1]_700:300_um-kicad_default"
   )
-  (via_rule
-    1/0.5 "Via[0-1]_1000:300_um-kicad_default"
-  )
   (class default
     (clearance_class default)
     (via_rule default)
@@ -81,9 +78,9 @@
     )
   )
   (class "kicad_default"
-    +12V +5V A0 A1 A13 A14 A15 A2
-    A6 A7 A8 D10 D13 D24 D26 D28
-    D30 D34 D36 D38 D46 D8 D9 GND
+    GND +12V +5V A0 A1 A13 A14 A15
+    A2 A6 A7 A8 D10 D13 D24 D26
+    D28 D30 D34 D36 D38 D46 D8 D9
     "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad1)" Vmot D2 D3 IOREF D14
     A9 A10 A11 D12 D11 RESET D7 D6
     D5 D4 D32 D39 D40 D42 D43 D16

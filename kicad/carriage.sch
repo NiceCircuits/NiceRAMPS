@@ -122,7 +122,7 @@ F 3 "~" H 9650 5350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 9550 4850 0    50   Input ~ 0
-A13
+A15
 $Comp
 L GND #PWR08
 U 1 1 534EDD2B

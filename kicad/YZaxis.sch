@@ -94,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 6750 4500 7000
 Text GLabel 4400 6900 0    50   Input ~ 0
-A15
+A10
 Connection ~ 4500 6850
 $Comp
 L GND #PWR031
