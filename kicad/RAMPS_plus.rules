@@ -67,6 +67,9 @@
   (via_rule
     "kicad_default" "Via[0-1]_700:300_um-kicad_default"
   )
+  (via_rule
+    1/0.5 "Via[0-1]_1000:300_um-kicad_default"
+  )
   (class default
     (clearance_class default)
     (via_rule default)
