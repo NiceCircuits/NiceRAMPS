@@ -280,10 +280,10 @@ Text Label 8550 4900 2    60   ~ 0
 Ymin
 Text Label 8550 5700 2    60   ~ 0
 Ymax
-Text GLabel 7750 4900 0    50   Input ~ 0
+Text GLabel 9400 5750 0    50   Input ~ 0
 D2
 Text GLabel 7750 5700 0    50   Input ~ 0
-D25
+D15
 $Comp
 L R R24
 U 1 1 537E6A3D
@@ -374,7 +374,7 @@ Text Label 10200 5750 2    60   ~ 0
 Zmax
 Text GLabel 9400 4950 0    50   Input ~ 0
 D14
-Text GLabel 9400 5750 0    50   Input ~ 0
+Text GLabel 7750 4900 0    50   Input ~ 0
 D3
 $Comp
 L R R25
