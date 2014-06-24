@@ -28,7 +28,7 @@
   (rule
     (width 152.4)
     (clear 203.4)
-    (clear 76.2 (type smd_to_turn_gap))
+    (clear 0.0 (type smd_to_turn_gap))
     (clear 50.8 (type smd_smd))
   )
   (padstack "Via[0-1]_700:300_um"
@@ -111,7 +111,7 @@
     "Net-(CON19-Pad5)" "/Panel/LCD_EN" "/Panel/LCD_D4" "/Panel/LCD_D6" "/Panel/LCD_RS" "/Panel/LCD_D5" "/Panel/LCD_D7" "/Power/PS-ON"
     "/Power/PS-FAN" "Net-(CON25-Pad3)" "/Power/Chamber-heater" "/Power/Chamber-fan" Vbed "Net-(D6-Pad1)" "Net-(D7-Pad1)" "Net-(D12-Pad1)"
     "Net-(D15-Pad1)" "Net-(Q1-Pad1)" "Net-(Q2-Pad1)" "Net-(Q5-Pad1)" "Net-(R3-Pad1)" "Net-(R8-Pad1)" "Net-(R21-Pad1)" "/YZ axis/BED"
-    A4 D21 D20 A5 A12 AGND
+    A4 D21 D20 A5 A12 D15 AGND
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
