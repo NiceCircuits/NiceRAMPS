@@ -34,8 +34,6 @@ Text GLabel 1550 1400 0    50   Input ~ 0
 RESET
 Text GLabel 1550 1500 0    50   UnSpc ~ 0
 +3V3
-Text GLabel 1550 1600 0    50   UnSpc ~ 0
-+5V
 Text GLabel 1550 2300 0    50   BiDi ~ 0
 A0
 Text GLabel 1550 2400 0    50   BiDi ~ 0
@@ -284,28 +282,6 @@ F 3 "" H 1300 2000 60  0000 C CNN
 	1    1300 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR02
-U 1 1 536FA739
-P 2550 6400
-F 0 "#PWR02" H 2550 6400 30  0001 C CNN
-F 1 "GND" H 2550 6330 30  0001 C CNN
-F 2 "" H 2550 6400 60  0000 C CNN
-F 3 "" H 2550 6400 60  0000 C CNN
-	1    2550 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 536FA866
-P 1850 6400
-F 0 "#PWR03" H 1850 6400 30  0001 C CNN
-F 1 "GND" H 1850 6330 30  0001 C CNN
-F 2 "" H 1850 6400 60  0000 C CNN
-F 3 "" H 1850 6400 60  0000 C CNN
-	1    1850 6400
-	1    0    0    -1  
-$EndComp
 Text GLabel 1850 4500 0    50   UnSpc ~ 0
 +5V
 Text GLabel 2550 4500 2    50   UnSpc ~ 0
@@ -324,8 +300,6 @@ Wire Wire Line
 	1550 1400 1750 1400
 Wire Wire Line
 	1550 1500 1750 1500
-Wire Wire Line
-	1550 1600 1750 1600
 Wire Wire Line
 	1300 1700 1750 1700
 Wire Wire Line
@@ -546,4 +520,12 @@ F 3 "" H 2100 7200 60  0000 C CNN
 $EndComp
 NoConn ~ 2650 2900
 NoConn ~ 2650 3000
+NoConn ~ 1750 1600
+Text Notes 1400 1625 0    50   Italic 0
++5V
+Wire Wire Line
+	2550 6400 1550 6400
+Connection ~ 1850 6400
+Text GLabel 1550 6400 0    50   UnSpc ~ 0
+AGND
 $EndSCHEMATC
